@@ -39,22 +39,5 @@ public class Fight implements Runnable {
 		thread2.start();
 		out1.println(-1);
 		out1.flush();
-//		while(chessboard.getStatus() == 0){
-//			if(chessboard.getTurn() == 1){
-//				out1.println(-1);
-//				out1.flush();
-//				System.out.println("Send place chess to P1");
-//				while(previousTurn == chessboard.getTurn());
-//				System.out.println("P1 response");
-//			}
-//			else{
-//				out2.println(-1);
-//				out2.flush();
-//				System.out.println("Send place chess to P2");
-//				while(previousTurn == chessboard.getTurn());
-//				System.out.println("P2 response");
-//			}
-//			previousTurn = chessboard.getTurn();
-//		}
 	}
 }

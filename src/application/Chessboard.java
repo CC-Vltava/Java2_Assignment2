@@ -9,17 +9,14 @@ public class Chessboard {
 	public int getStatus(){
 		return status;
 	}
-	
 	public void setStatus(int status){
 		this.status = status;
 	}
-	
 	public void setChessboard(int len) {
 		int x = len / 3;
 		int y = len % 3;
 		setChessboard(x, y);
 	}
-	
 	public void setChessboard(int x, int y) {
 		chessboard[x][y] = turn;
 	}
@@ -28,11 +25,6 @@ public class Chessboard {
 		turn = turn == 1 ? 2 : 1;
 		step += 1;
 	}
-	
-	public int getStep(){
-		return step;
-	}
-	
 	public int[][] getChessboard() {
 		return chessboard;
 	}

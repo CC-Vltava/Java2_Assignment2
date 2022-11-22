@@ -9,8 +9,6 @@ import java.util.Scanner;
 
 
 public class Server {
-
-//	final static int SBAP_PORT = 8888;
 	public static ServerSocket server;
 	
 	static {
@@ -49,8 +47,6 @@ public class Server {
 		out2.flush();
 		
 		System.out.println("Send start message to client");
-		
-		// 到这里，完成了两个Client到server的连接
 		
 		chessboard.setStatus(0);
 		

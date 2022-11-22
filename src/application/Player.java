@@ -63,7 +63,6 @@ public class Player implements Runnable {
 				@Override
 				public void run() {
 					controller.refreshBoard(x, y);
-					//更新JavaFX的主线程的代码放在此处
 				}
 			});
 			
